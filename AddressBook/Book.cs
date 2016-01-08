@@ -28,6 +28,7 @@ namespace AddressBook
         public void RemoveContact()
         {
             string entryToRemove;
+            string userConfirm;
 
             Console.Clear();
             foreach (KeyValuePair<string, Entry> item in addressBook)
@@ -37,7 +38,19 @@ namespace AddressBook
             Console.Write("Who would you like to remove?");
             entryToRemove = Console.ReadLine();
 
-            addressBook.Remove(entryToRemove);
+            Console.WriteLine("Are you sure?");
+            userConfirm = Console.ReadLine().ToLower();
+
+            if(userConfirm == "yes")
+            {
+                addressBook.Remove(entryToRemove);
+            }
+            else
+            {
+                RemoveContact();
+            }
+
+            
         }
 
         public void PrintBook()
