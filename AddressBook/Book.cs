@@ -69,7 +69,12 @@ namespace AddressBook
 
         public void SearchBook()
         {
+            string findKey;
+
             Console.Clear();
+            Console.Write("Who are you trying to find?");
+            findKey = Console.ReadLine();
+
         }
     }
 }
