@@ -1,0 +1,6 @@
+C:\Users\nanne\Documents\GitHub\AddressBook\AddressBook\bin\Debug\AddressBook.exe.config
+C:\Users\nanne\Documents\GitHub\AddressBook\AddressBook\obj\Debug\AddressBook.csprojResolveAssemblyReference.cache
+C:\Users\nanne\Documents\GitHub\AddressBook\AddressBook\bin\Debug\AddressBook.exe
+C:\Users\nanne\Documents\GitHub\AddressBook\AddressBook\bin\Debug\AddressBook.pdb
+C:\Users\nanne\Documents\GitHub\AddressBook\AddressBook\obj\Debug\AddressBook.exe
+C:\Users\nanne\Documents\GitHub\AddressBook\AddressBook\obj\Debug\AddressBook.pdb
