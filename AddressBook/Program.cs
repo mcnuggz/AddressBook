@@ -31,9 +31,11 @@ namespace AddressBook
                 {
                     case 1:
                         //add entry
+                        addressBook.AddContact();
                         break;
                     case 2:
                         //remove entry
+                        addressBook.RemoveContact();
                         break;
                     case 3:
                         //print book
@@ -41,11 +43,11 @@ namespace AddressBook
                         break;
                     case 4:
                         //edit entries
-                        
+                        addressBook.EditBook();
                         break;
                     case 5:
                         //search for object in dictionary
-
+                        addressBook.SearchBook();
                         break;
                     case 6:
                         menu = false;
